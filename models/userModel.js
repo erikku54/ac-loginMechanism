@@ -5,7 +5,10 @@ const todoSchema = new Schema({
     type: String,
     required: true
   },
-  email: String,
+  email: {
+    type: String,
+    required: true
+  },
   password: {
     type: String,
     required: true
